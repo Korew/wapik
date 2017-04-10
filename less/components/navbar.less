@@ -1,7 +1,7 @@
 @navbar-breakpoint:    768px;
 
 .hook-navbar() {
-	padding: 26px 0;
+	padding-top: 27px;
 	font-family: @font-family-second;
 	color: #fff;
 	font-size: 13px;
@@ -15,8 +15,10 @@
 	.container {
 		display: flex;
 		width: 100%;
+		padding-bottom: 27px;
 		justify-content: space-between;
 		align-items: center;
+		border-bottom: 1px solid rgba(255,255,255,.2);
 	}
 };
 .hook-navbar-brand() {
@@ -45,18 +47,7 @@
 	&:last-child {
 	}
 
-	.button {
-		border-radius: 2px;
-		opacity: 1;
-		padding: 4px 16px;
-		color: #fff;
-		background-color: rgba(255,255,255,.2);
-		margin-left: 15px;
 
-		&:hover {
-			background-color: #40c249;
-		}
-	}
 };
 .hook-navbar-link() {
 	text-decoration: none;
