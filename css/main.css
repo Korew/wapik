@@ -727,6 +727,9 @@ textarea.form-control {
 .background-main {
   background-color: #2d6e70;
 }
+.background-grey {
+  background-color: #eef1ec;
+}
 @font-face {
   font-family: 'wapik-icons';
   src: url('../font/wapik-icons.eot?tv4ea4');
