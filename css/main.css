@@ -575,6 +575,7 @@ textarea.form-control {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.33;
+  margin-bottom: 40px;
 }
 .section-overlay {
   background-size: cover;
@@ -798,9 +799,76 @@ textarea.form-control {
 .icon-ok-list:before {
   content: "\e906";
 }
-.icon-photoshop-and-aketch:before {
+.icon-photoshop-and-sketch:before {
   content: "\e907";
 }
 .icon-pixel-perfect:before {
   content: "\e908";
+}
+.features-holder {
+  font-size: 0;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+.features-card {
+  float: left;
+  width: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 1rem;
+  margin-bottom: 60px;
+}
+.features-card:nth-child(1),
+.features-card:nth-child(2),
+.features-card:nth-child(3) {
+  width: 33.33%;
+  margin-bottom: 175px;
+}
+.features-card:nth-child(1) .features-card-header,
+.features-card:nth-child(2) .features-card-header,
+.features-card:nth-child(3) .features-card-header {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.features-card:nth-child(1) .features-card-icon,
+.features-card:nth-child(2) .features-card-icon,
+.features-card:nth-child(3) .features-card-icon {
+  font-size: 52px;
+}
+.features-card:nth-child(1) .features-card-title,
+.features-card:nth-child(2) .features-card-title,
+.features-card:nth-child(3) .features-card-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.features-card:nth-child(1) .features-card-description,
+.features-card:nth-child(2) .features-card-description,
+.features-card:nth-child(3) .features-card-description {
+  text-align: center;
+}
+.features-card-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.features-card-icon {
+  color: #40c249;
+  font-size: 30px;
+}
+.features-card-title {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0f5f5c;
+  margin-left: 22px;
+}
+.features-card-description {
+  color: #83a7a5;
 }
