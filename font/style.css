@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'wapik-icons';
-  src:  url('../font/wapik-icons.eot?tv4ea4');
-  src:  url('../font/wapik-icons.eot?tv4ea4#iefix') format('embedded-opentype'),
-    url('../font/wapik-icons.ttf?tv4ea4') format('truetype'),
-    url('../font/wapik-icons.woff?tv4ea4') format('woff'),
-    url('../font/wapik-icons.svg?tv4ea4#wapik-icons') format('svg');
+  src:  url('wapik-icons.eot?tv4ea4');
+  src:  url('wapik-icons.eot?tv4ea4#iefix') format('embedded-opentype'),
+    url('wapik-icons.ttf?tv4ea4') format('truetype'),
+    url('wapik-icons.woff?tv4ea4') format('woff'),
+    url('wapik-icons.svg?tv4ea4#wapik-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -81,3 +81,4 @@
 .icon-pixel-perfect:before {
   content: "\e908";
 }
+
