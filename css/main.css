@@ -519,6 +519,9 @@ textarea.form-control {
 .section-p140 {
   padding: 140px 0;
 }
+.section-p170 {
+  padding: 170px 0;
+}
 .section-quote .container {
   max-width: 1060px;
 }
@@ -564,6 +567,18 @@ textarea.form-control {
   line-height: 1.57;
   color: #83a7a5;
   font-weight: 400;
+}
+.section-worldmap .container {
+  width: 100%;
+}
+.section-worldmap .text-holder {
+  min-height: 0;
+  max-width: 500px;
+  background-color: rgba(238, 241, 236, 0.8);
+}
+.section-worldmap .section-overlay {
+  background-repeat: no-repeat !important;
+  background-position: 100% 50% !important;
 }
 .section-body {
   padding: 20px 0;
