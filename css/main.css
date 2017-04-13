@@ -604,9 +604,9 @@ textarea.form-control {
 }
 .iphone-holder {
   position: relative;
-  left: -100px;
-  width: 508px;
-  height: 485px;
+  left: -90px;
+  width: 457px;
+  height: 437px;
   float: left;
 }
 .iphone-holder img {
@@ -616,15 +616,25 @@ textarea.form-control {
 }
 .iphone-holder .screenshot {
   position: absolute;
-  top: 40px;
-  left: 260px;
-  width: 179px;
-  height: 315px;
+  top: 43px;
+  left: 233px;
+  width: 161px;
+  height: 284px;
 }
 .text-holder {
-  margin-left: -100px;
+  min-height: 437px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .text-holder h2 {
+  margin: 0;
   color: #0f5f5c;
   font-family: Roboto;
   font-size: 32px;
